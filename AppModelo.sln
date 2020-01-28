@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.UI.Site", "DevIO.UI.Site\DevIO.UI.Site.csproj", "{3E8631D7-C9CE-46F6-BB56-09B97DE814DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.UI.Site", "src\DevIO.UI.Site\DevIO.UI.Site.csproj", "{3E8631D7-C9CE-46F6-BB56-09B97DE814DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
