@@ -27,27 +27,6 @@
       ]
     },
     {
-      "library": "twitter-bootstrap@4.4.1",
-      "destination": "wwwroot/bootstrap/",
-      "files": [
-        "css/bootstrap-reboot.css",
-        "css/bootstrap.css.map",
-        "css/bootstrap-grid.css",
-        "js/bootstrap.js"
-      ]
-    },
-    {
-      "provider": "cdnjs",
-      "library": "twitter-bootstrap@4.4.1",
-      "destination": "wwwroot/lib/bootstrap/",
-      "files": [
-        "js/bootstrap.js",
-        "css/bootstrap-grid.css",
-        "css/bootstrap-reboot.css",
-        "css/bootstrap.css"
-      ]
-    },
-    {
       "library": "font-awesome@5.11.2",
       "destination": "wwwroot/lib/font-awesome/",
       "files": [
@@ -68,6 +47,14 @@
         "webfonts/fa-solid-900.woff",
         "webfonts/fa-solid-900.woff2",
         "js/fontawesome.js"
+      ]
+    },
+    {
+      "library": "twitter-bootstrap@4.4.1",
+      "destination": "wwwroot/lib/bootstrap/css/",
+      "files": [
+        "js/bootstrap.min.js",
+        "css/bootstrap.css"
       ]
     }
   ]
