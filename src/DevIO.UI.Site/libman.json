@@ -3,20 +3,20 @@
   "defaultProvider": "cdnjs",
   "libraries": [
     {
-      "library": "jquery@3.4.1",
-      "destination": "wwwroot/jquery/",
+      "library": "jquery@3.3.1",
+      "destination": "wwwroot/lib/jquery/",
       "files": [
-        "core.js",
-        "jquery.js"
+        "jquery.js",
+        "core.js"
       ]
     },
     {
-      "library": "jquery-validate@1.19.1",
+      "library": "jquery-validate@1.19.0",
       "destination": "wwwroot/lib/jquery-validate/",
       "files": [
-        "localization/messages_pt_BR.js",
-        "additional-methods.js",
-        "jquery.validate.js"
+        "jquery.validate.js",
+        "localization/methods_pt.js",
+        "additional-methods.js"
       ]
     },
     {
@@ -27,47 +27,27 @@
       ]
     },
     {
-      "library": "twitter-bootstrap@4.4.1",
-      "destination": "wwwroot/bootstrap/",
+      "library": "twitter-bootstrap@4.2.1",
+      "destination": "wwwroot/lib/bootstrap/",
       "files": [
+        "js/bootstrap.js",
+        "css/bootstrap.css",
         "css/bootstrap-reboot.css",
-        "css/bootstrap.css.map",
-        "css/bootstrap-grid.css",
-        "js/bootstrap.js"
+        "css/bootstrap-grid.css"
       ]
     },
     {
       "provider": "cdnjs",
-      "library": "twitter-bootstrap@4.4.1",
-      "destination": "wwwroot/lib/bootstrap/",
-      "files": [
-        "js/bootstrap.js",
-        "css/bootstrap-grid.css",
-        "css/bootstrap-reboot.css",
-        "css/bootstrap.css"
-      ]
-    },
-    {
-      "library": "font-awesome@5.11.2",
+      "library": "font-awesome@4.7.0",
       "destination": "wwwroot/lib/font-awesome/",
       "files": [
-        "css/fontawesome.css",
-        "webfonts/fa-brands-400.eot",
-        "webfonts/fa-brands-400.svg",
-        "webfonts/fa-brands-400.ttf",
-        "webfonts/fa-brands-400.woff",
-        "webfonts/fa-brands-400.woff2",
-        "webfonts/fa-regular-400.eot",
-        "webfonts/fa-regular-400.svg",
-        "webfonts/fa-regular-400.ttf",
-        "webfonts/fa-regular-400.woff",
-        "webfonts/fa-regular-400.woff2",
-        "webfonts/fa-solid-900.eot",
-        "webfonts/fa-solid-900.svg",
-        "webfonts/fa-solid-900.ttf",
-        "webfonts/fa-solid-900.woff",
-        "webfonts/fa-solid-900.woff2",
-        "js/fontawesome.js"
+        "css/font-awesome.css",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2",
+        "fonts/FontAwesome.otf"
       ]
     }
   ]
