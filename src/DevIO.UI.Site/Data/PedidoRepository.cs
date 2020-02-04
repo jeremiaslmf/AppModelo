@@ -7,7 +7,7 @@ namespace DevIO.UI.Site.Data
         public Pedido ObterPedido()
         {
             return new Pedido();
-        };
+        }
     }
 
     public interface IPedidoRepository
